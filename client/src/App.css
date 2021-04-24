@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweet-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tweet-wrapper {
+  width: 50%;
+  background: #f9f9f9;
+  padding: 1rem;
+  margin: 1rem 0;
+  box-shadow: 0 0 0.5rem #afadad;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #2e6ffa;
+  padding: 0.5rem 0.5rem;
+  margin-bottom: 0.8rem;
+  display: inline-block;
+}
+
+a:hover {
+  background: #1b5dec;
+}
